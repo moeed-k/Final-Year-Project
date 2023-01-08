@@ -22,7 +22,7 @@ return (
                 <div className="dropdown">
                     <button className="dropbtn"> 
                         <div id="accountDetails">
-                            <img src="./2.jpeg" alt="none" width="20px" height="15px"/>
+                            <img src="./SpeakEasy1.png" alt="none" width="20px" height="15px"/>
                             
                             Wasay Rizwani 
                             <span className="material-symbols-outlined">

@@ -9,11 +9,11 @@ import {
   } from "react-router-dom";
 export default function Analytics() {
     const [chartData, setChartData] = useState({
-        labels: ["Authenticity", "Confidence", "Persuasion", "Reliability"], 
+        labels: ["Authenticity", "Confidence", "Persuasion"], 
         datasets: [
           {
             label: "Scores ",
-            data: [50, 40, 80, 20],
+            data: [50, 40, 80],
             borderWidth: 1,
             backgroundColor: [
               'rgba(168, 98, 189, 0.566)'
@@ -24,7 +24,7 @@ export default function Analytics() {
       });
     
 
-
+ 
       const [chartData3, setChartData3] = useState({
         labels: ['', '', '', '','', '', '', ''],
       datasets: [{
@@ -71,7 +71,7 @@ return (
                 <div className="dropdown">
                     <button className="dropbtn"> 
                         <div id="accountDetails">
-                            <img src="./2.jpeg" alt="none" width="20px" height="15px"/>
+                            <img src="./SpeakEasy1.png" alt="none" width="20px" height="15px"/>
                             
                             Wasay Rizwani 
                             <span className="material-symbols-outlined">
@@ -164,6 +164,10 @@ return (
                     </div>
                     <div id="FillerSounds" className="boxes">
                         <p>Filler Sounds:3</p>
+
+                    </div>
+                    <div id="Clarity" className="boxes">
+                        <p>Clarity:60%</p>
 
                     </div>
                 </div>

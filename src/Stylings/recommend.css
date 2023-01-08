@@ -1,0 +1,89 @@
+.recommendouter
+{
+    display: flex;
+    flex-direction: column;
+    /* border: thin solid red; */
+    height: 100%;
+}
+.feedbackHeading
+{
+    display: flex;
+    /* border-radius: 5px; */
+    /* background-color: rgba(168, 98, 189, 0.566); */
+    width: 100%;
+    height: 20%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.feedbackText
+{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+/* 
+.testHeadingText2
+{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+} */
+.points
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+.positivePoints, .negativePoints
+{
+    display: flex;
+    height: 150px;
+    width: 35%;
+    flex-direction: column;
+    background-color: rgba(168, 98, 189, 0.566);
+    border-radius: 5px;
+    align-self: flex-start;
+}
+.p_pointsHeadingFlex, .n_pointsHeadingFlex
+{
+    padding: 0px;
+    margin: 0px;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(168, 98, 189, 0.566);
+    border: 0px;
+    align-self: flex-start;
+}
+.positive_pointsHeading, .negative_pointsHeading
+{
+    margin-top:1%;
+}
+.pointsListFlex
+{
+    margin-top:3%;
+}
+.bullet
+{
+    margin-left: 3%;
+    text-align: left;
+  list-style-position: inside;
+}
+.recommendList
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 35%;
+    height: 150px;
+    margin-top: 30px;
+    align-self: center;
+    background-color: rgba(168, 98, 189, 0.566);
+}

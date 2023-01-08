@@ -10,6 +10,7 @@ import Signup  from "./component/signup";
 import Home from './component/Home';
 import Analytics from "./component/Analytics";
 import Test from "./component/Test";
+import Exercises from "./component/Exercises";
 function App() {
    
     return ( 
@@ -27,6 +28,7 @@ function App() {
                     <Route path="/profile" element={<Home/>}/>
                     <Route path="/analytic" element={<Analytics/>}/>
                     <Route path="/Test" element={<Test/>}/>
+                    <Route path="/recommendation" element={<Exercises/>}/>
                 </Routes>
             </Router>
         </React.StrictMode>
