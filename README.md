@@ -6,7 +6,7 @@
 3. Make sure you have Django installed.
 4. Go to nlp_server/analytics/views.py and set the 'daemon_directory_path'.
 
-##Processing audio
+## Processing audio
 1. Run the daemon using 'python nlp.py'
 2. Start django (under nlp_server) using 'python manage.py runserver' to start django on the localhost.
 3. Run client.py 
