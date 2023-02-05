@@ -5,17 +5,15 @@ import "../Stylings/taketest.css";
 // import  MediaRecorder from "./MediaRecorder"
 import { useReactMediaRecorder } from "react-media-recorder";
 
-=======
 import React from 'react'
 import "../Stylings/taketest.css"
->>>>>>> 831bc56a45e99785f8409797de89928a53ddd18f
 import {
 
     Link
   } from "react-router-dom";
 
 export default function Test() {
-<<<<<<< HEAD
+
     const [isPlaying, setIsPlaying] = useState(false);
     const videoRef = useRef(null);
     const [Number, setNumber] = useState(0);
@@ -105,8 +103,7 @@ export default function Test() {
 
 
 
-=======
->>>>>>> 831bc56a45e99785f8409797de89928a53ddd18f
+
   return (
 <div>
 <nav className="NavigationBar">
@@ -162,11 +159,11 @@ export default function Test() {
                         </span>Analytics</Link>
             </li>
             <li className="sidebuttonBlock">
-<<<<<<< HEAD
+
                 <Link to="/recommendation">
-=======
+
                 <Link a="/recommendation">
->>>>>>> 831bc56a45e99785f8409797de89928a53ddd18f
+
                     <span className="material-symbols-outlined">
                         recommend
                         </span> Recommend Exercises
@@ -186,7 +183,7 @@ export default function Test() {
         </div>
         <div className='vidflexouter'>
             <div className='vidflex'>
-<<<<<<< HEAD
+
             {/* height="90%" width="100%" */}
             {/* <video>
                 <source src={video1} type='video/mp4' />
@@ -235,7 +232,7 @@ export default function Test() {
     </div>
 </div>
 
-=======
+
                 <video src="vid1.mp4" controls className='video1' height="90%" width="100%"></video>
                 <div className='buttons'>
                     <button type="button" className='next'>
@@ -268,6 +265,6 @@ export default function Test() {
         </div>
     </div>
 </div>
->>>>>>> 831bc56a45e99785f8409797de89928a53ddd18f
+
 </div>
 )}
