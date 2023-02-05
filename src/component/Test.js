@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react';
 import {useState, useRef,useEffect} from 'react'
 import "../Stylings/taketest.css";
