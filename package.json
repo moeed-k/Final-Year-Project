@@ -11,10 +11,7 @@
     "react-chartjs-2": "^5.1.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-<<<<<<< HEAD
     "react-media-recorder": "^1.6.6",
-=======
->>>>>>> 831bc56a45e99785f8409797de89928a53ddd18f
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
