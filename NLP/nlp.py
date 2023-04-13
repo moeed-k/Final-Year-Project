@@ -172,7 +172,6 @@ def getTranscrptionString(stt_model, audio_path):
 
     return transcriptions[0], " ".join(wordsegment.segment(transcriptions[0]['transcription']))
 
-
 # returns the transcription of the audio snippets as a list of strings. Also returns a list of probability lists. Uses xlsr
 def getTranscrptionStrings(stt_model, audioName,SNIPPET_SAVE_DIR):
     if not os.path.exists(f'{SNIPPET_SAVE_DIR}{audioName.rstrip(".wav")}'):
